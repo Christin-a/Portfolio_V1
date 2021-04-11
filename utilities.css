@@ -1,0 +1,73 @@
+
+
+/* Grids and  Flex */
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-center {
+    display: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    height: 800px;
+    width: 1024px;
+    justify-content: center; 
+}
+
+
+/* buttons */
+
+.btn {
+    border-radius: 5px;
+    box-shadow: none;
+    font-family: var(--main-font);
+    font-size: var(--body);
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 400ms ease-in-out, 
+    transform 150ms ease;
+    padding: .5em 1.5em;
+}
+
+/* Typography */
+
+h1 {font-size: 3rem;
+    font-weight: 400;
+    font-family: var(--display-font);
+    line-height: 2em;
+}
+
+h2 {font-size: 1.5rem;
+    font-weight: 300;
+    font-family: var(--display-font);
+    line-height: 2em;
+}
+h3 {font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--main-font);
+    line-height: 1.5em;
+}
+h4 {font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--main-font);
+    line-height: 1.5em;
+}
+
+
+
+
